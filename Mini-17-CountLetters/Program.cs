@@ -22,7 +22,6 @@ namespace Mini17CountLetters
 
         static Dictionary<char, int> count_letters(string input)
         {
-            Regex regex = new Regex("A-Za-z");
             var letter_count = new Dictionary<char, int>();
 
             foreach (var letter in input)
